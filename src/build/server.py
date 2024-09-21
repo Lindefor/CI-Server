@@ -3,6 +3,7 @@ from flask import abort, request
 import requests
 import os
 import sys
+import logging
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../')))
 
@@ -10,6 +11,30 @@ from parse_payload import Payload
 from utils.utils import verify_webhook_signature, _clone_repo, _remove_repo
 from utils.run_tests import run_tests
 
+def start_logger(commit_sha: str):
+    """
+    Start a logger for the CI pipeline.
+
+    :param commit_sha: The SHA of the commit.
+    :type commit_sha: str
+
+    :return: A logger object.
+    :rtype: logging.Logger
+    """
+    log_path = os.path.join("logs", f"{commit_sha}.log")
+
+    logger = logging.getLogger(__name__)
+    logger.setLevel(logging.DEBUG)
+
+    file_handler = logging.FileHandler(log_path)
+    file_handler.setLevel(logging.DEBUG)
+
+    formatter = logging.Formatter('%(asctime)s | %(levelname)s | %(message)s')
+    file_handler.setFormatter(formatter)
+
+    logger.addHandler(file_handler)
+
+    return logger
 
 def set_status(commit_sha: str, state: str, description: str, target_url: str, repo_name: str, repo_owner: str, github_token: str) -> dict:
     """
@@ -88,10 +113,6 @@ def build_application(name: str):
 
     payload_data = request.json
 
-    # Save payload data to a file
-    with open('payload_data.json', 'w') as file:
-        json.dump(payload_data, file)
-
     try:
         payload = Payload('pull_request', payload_data)
         action = payload.action
@@ -99,29 +120,37 @@ def build_application(name: str):
         print(error)
         abort(400, "Invalid payload")
 
-    # use target url for logs
-    target_url = ""
+    logger = start_logger(payload.commit_sha)
+    target_url = request.url.replace(f"build/{name}", f"logs/{payload.commit_sha}")
 
     if action in ['opened', 'reopened', 'synchronize', 'edited']:
         set_status(payload.commit_sha, "pending", "Running tests", "", payload.repo_name, payload.repo_owner, github_token)
 
+        logger.debug(f"Test suite started for commit {payload.commit_sha}")
         info = _clone_repo(payload.clone_url)
         repo_path, repo = info[0], info[1]
+        logger.debug(f"Repository cloned to {repo_path}")
+
         repo.git.checkout(payload.commit_sha)
+        logger.debug(f"Checked out commit {payload.commit_sha}")
 
         test_result_code = 1
         test_output = ""
         test_result_code, test_output = run_tests(repo_path)
+        logger.info(f"Unit tests completed with code: {test_result_code}")
+        logger.debug(f"Unit tests output: {test_output}")
 
         # Set success/failure status upon test/syntax completion
         if test_result_code == 0:
             set_status(payload.commit_sha, "success", "Build succeeded", target_url, payload.repo_name, payload.repo_owner, github_token)
-
+            logger.info("Test suite completed successfully for commit {payload.commit_sha}")
         else:
             set_status(payload.commit_sha, "failure", "Build failed", target_url, payload.repo_name, payload.repo_owner, github_token)
-
+            logger.error("Test suite failed for commit {payload.commit_sha}")
 
         _remove_repo(repo_path)
+
+        logger.debug(f"Repository removed for commit {payload.commit_sha}")
 
     else:
         print("Closed or other action")
