@@ -1,0 +1,528 @@
+2024-09-21 20:37:12,707 | DEBUG | Test suite started for commit 4a9db8c6280a306c18f1177655d7501bb7635b31
+2024-09-21 20:37:12,707 | DEBUG | Test suite started for commit 4a9db8c6280a306c18f1177655d7501bb7635b31
+2024-09-21 20:37:15,098 | DEBUG | Repository cloned to /var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmp4fy1p0ls
+2024-09-21 20:37:15,098 | DEBUG | Repository cloned to /var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmp4fy1p0ls
+2024-09-21 20:37:15,119 | DEBUG | Checked out commit 4a9db8c6280a306c18f1177655d7501bb7635b31
+2024-09-21 20:37:15,119 | DEBUG | Checked out commit 4a9db8c6280a306c18f1177655d7501bb7635b31
+2024-09-21 20:37:25,887 | INFO | Unit tests completed with code: 0
+2024-09-21 20:37:25,887 | INFO | Unit tests completed with code: 0
+2024-09-21 20:37:25,887 | DEBUG | Unit tests output: [2m[WebServer] [22m[1m[31mThe following Vite config options will be overridden by SvelteKit:[22m[39m
+  - build.outDir
+[2m[WebServer] [22m[33m8:37:22 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmp4fy1p0ls/src/routes/+page.svelte:33:0 Unused CSS selector "html"[39m
+[2m[WebServer] [22m31: 
+32: <style lang="scss">@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+33: html, body {
+    ^
+34:   height: 100%;
+35:   margin: 0;
+[33m8:37:22 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmp4fy1p0ls/src/routes/+page.svelte:33:6 Unused CSS selector "body"[39m
+31: 
+32: <style lang="scss">@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+33: html, body {
+          ^
+34:   height: 100%;
+35:   margin: 0;
+[2m[WebServer] [22m[33m8:37:22 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmp4fy1p0ls/src/lib/components/habitList/HabitList.svelte:126:0 Unused CSS selector ".habit"[39m
+[2m[WebServer] [22m124:   background: transparent;
+125: }
+126: .habit {
+     ^
+127:   padding: 10px;
+128:   margin: -21px;
+[2m[WebServer] [22m[33m8:37:23 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmp4fy1p0ls/src/lib/components/leftBar/LeftBarShortcut.svelte:46:0 Unused CSS selector ".shortcut img"[39m
+[2m[WebServer] [22m44:   transform: translateY(2px);
+45: }
+46: .shortcut img {
+    ^
+47:   width: 90%;
+48:   height: 90%;
+[2m[WebServer] [22m[33m8:37:23 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmp4fy1p0ls/src/lib/components/mainView/navElement.svelte:52:0 Unused CSS selector ".shortcut img"[39m
+[2m[WebServer] [22m50:   transform: translateY(0.5px);
+51: }
+52: .shortcut img {
+    ^
+53:   width: 60px;
+54:   height: 60px;
+[2m[WebServer] [22m"plugins" is imported from external module "chart.js" but never used in "node_modules/svelte-chartjs/dist/Pie.svelte", "node_modules/svelte-chartjs/dist/Doughnut.svelte", "node_modules/svelte-chartjs/dist/Radar.svelte", "node_modules/svelte-chartjs/dist/Bar.svelte", "node_modules/svelte-chartjs/dist/Chart.svelte", "node_modules/svelte-chartjs/dist/Line.svelte", "node_modules/svelte-chartjs/dist/PolarArea.svelte", "node_modules/svelte-chartjs/dist/Bubble.svelte", "node_modules/svelte-chartjs/dist/Scatter.svelte" and "src/lib/components/mainView/Graph/Graph.svelte".
+[2m[WebServer] [22m[1m[31mThe following Vite config options will be overridden by SvelteKit:[22m[39m
+  - build.outDir
+[2m[WebServer] [22m[33m8:37:23 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmp4fy1p0ls/src/routes/+page.svelte:33:0 Unused CSS selector "html"[39m
+31: 
+32: <style lang="scss">@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+33: html, body {
+    ^
+34:   height: 100%;
+35:   margin: 0;
+[2m[WebServer] [22m[33m8:37:23 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmp4fy1p0ls/src/routes/+page.svelte:33:6 Unused CSS selector "body"[39m
+31: 
+32: <style lang="scss">@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+33: html, body {
+          ^
+34:   height: 100%;
+35:   margin: 0;
+[2m[WebServer] [22m[33m8:37:23 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmp4fy1p0ls/src/lib/components/habitList/HabitList.svelte:126:0 Unused CSS selector ".habit"[39m
+[2m[WebServer] [22m124:   background: transparent;
+125: }
+126: .habit {
+     ^
+127:   padding: 10px;
+128:   margin: -21px;
+[2m[WebServer] [22m[33m8:37:23 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmp4fy1p0ls/src/lib/components/leftBar/LeftBarShortcut.svelte:46:0 Unused CSS selector ".shortcut img"[39m
+[2m[WebServer] [22m44:   transform: translateY(2px);
+45: }
+46: .shortcut img {
+    ^
+47:   width: 90%;
+48:   height: 90%;
+[2m[WebServer] [22m[33m8:37:23 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmp4fy1p0ls/src/lib/components/mainView/navElement.svelte:52:0 Unused CSS selector ".shortcut img"[39m
+[2m[WebServer] [22m50:   transform: translateY(0.5px);
+51: }
+52: .shortcut img {
+    ^
+53:   width: 60px;
+54:   height: 60px;
+
+Running 1 test using 1 worker
+
+  ✓  1 test.ts:8:1 › 1+1=2 (5ms)
+
+  1 passed (4.2s)
+
+2024-09-21 20:37:25,887 | DEBUG | Unit tests output: [2m[WebServer] [22m[1m[31mThe following Vite config options will be overridden by SvelteKit:[22m[39m
+  - build.outDir
+[2m[WebServer] [22m[33m8:37:22 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmp4fy1p0ls/src/routes/+page.svelte:33:0 Unused CSS selector "html"[39m
+[2m[WebServer] [22m31: 
+32: <style lang="scss">@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+33: html, body {
+    ^
+34:   height: 100%;
+35:   margin: 0;
+[33m8:37:22 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmp4fy1p0ls/src/routes/+page.svelte:33:6 Unused CSS selector "body"[39m
+31: 
+32: <style lang="scss">@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+33: html, body {
+          ^
+34:   height: 100%;
+35:   margin: 0;
+[2m[WebServer] [22m[33m8:37:22 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmp4fy1p0ls/src/lib/components/habitList/HabitList.svelte:126:0 Unused CSS selector ".habit"[39m
+[2m[WebServer] [22m124:   background: transparent;
+125: }
+126: .habit {
+     ^
+127:   padding: 10px;
+128:   margin: -21px;
+[2m[WebServer] [22m[33m8:37:23 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmp4fy1p0ls/src/lib/components/leftBar/LeftBarShortcut.svelte:46:0 Unused CSS selector ".shortcut img"[39m
+[2m[WebServer] [22m44:   transform: translateY(2px);
+45: }
+46: .shortcut img {
+    ^
+47:   width: 90%;
+48:   height: 90%;
+[2m[WebServer] [22m[33m8:37:23 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmp4fy1p0ls/src/lib/components/mainView/navElement.svelte:52:0 Unused CSS selector ".shortcut img"[39m
+[2m[WebServer] [22m50:   transform: translateY(0.5px);
+51: }
+52: .shortcut img {
+    ^
+53:   width: 60px;
+54:   height: 60px;
+[2m[WebServer] [22m"plugins" is imported from external module "chart.js" but never used in "node_modules/svelte-chartjs/dist/Pie.svelte", "node_modules/svelte-chartjs/dist/Doughnut.svelte", "node_modules/svelte-chartjs/dist/Radar.svelte", "node_modules/svelte-chartjs/dist/Bar.svelte", "node_modules/svelte-chartjs/dist/Chart.svelte", "node_modules/svelte-chartjs/dist/Line.svelte", "node_modules/svelte-chartjs/dist/PolarArea.svelte", "node_modules/svelte-chartjs/dist/Bubble.svelte", "node_modules/svelte-chartjs/dist/Scatter.svelte" and "src/lib/components/mainView/Graph/Graph.svelte".
+[2m[WebServer] [22m[1m[31mThe following Vite config options will be overridden by SvelteKit:[22m[39m
+  - build.outDir
+[2m[WebServer] [22m[33m8:37:23 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmp4fy1p0ls/src/routes/+page.svelte:33:0 Unused CSS selector "html"[39m
+31: 
+32: <style lang="scss">@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+33: html, body {
+    ^
+34:   height: 100%;
+35:   margin: 0;
+[2m[WebServer] [22m[33m8:37:23 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmp4fy1p0ls/src/routes/+page.svelte:33:6 Unused CSS selector "body"[39m
+31: 
+32: <style lang="scss">@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+33: html, body {
+          ^
+34:   height: 100%;
+35:   margin: 0;
+[2m[WebServer] [22m[33m8:37:23 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmp4fy1p0ls/src/lib/components/habitList/HabitList.svelte:126:0 Unused CSS selector ".habit"[39m
+[2m[WebServer] [22m124:   background: transparent;
+125: }
+126: .habit {
+     ^
+127:   padding: 10px;
+128:   margin: -21px;
+[2m[WebServer] [22m[33m8:37:23 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmp4fy1p0ls/src/lib/components/leftBar/LeftBarShortcut.svelte:46:0 Unused CSS selector ".shortcut img"[39m
+[2m[WebServer] [22m44:   transform: translateY(2px);
+45: }
+46: .shortcut img {
+    ^
+47:   width: 90%;
+48:   height: 90%;
+[2m[WebServer] [22m[33m8:37:23 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmp4fy1p0ls/src/lib/components/mainView/navElement.svelte:52:0 Unused CSS selector ".shortcut img"[39m
+[2m[WebServer] [22m50:   transform: translateY(0.5px);
+51: }
+52: .shortcut img {
+    ^
+53:   width: 60px;
+54:   height: 60px;
+
+Running 1 test using 1 worker
+
+  ✓  1 test.ts:8:1 › 1+1=2 (5ms)
+
+  1 passed (4.2s)
+
+2024-09-21 20:37:26,282 | INFO | Test suite completed successfully for commit {payload.commit_sha}
+2024-09-21 20:37:26,282 | INFO | Test suite completed successfully for commit {payload.commit_sha}
+2024-09-21 20:37:27,937 | DEBUG | Repository removed for commit 4a9db8c6280a306c18f1177655d7501bb7635b31
+2024-09-21 20:37:27,937 | DEBUG | Repository removed for commit 4a9db8c6280a306c18f1177655d7501bb7635b31
+2024-09-21 20:39:44,193 | DEBUG | Test suite started for commit 4a9db8c6280a306c18f1177655d7501bb7635b31
+2024-09-21 20:39:44,193 | DEBUG | Test suite started for commit 4a9db8c6280a306c18f1177655d7501bb7635b31
+2024-09-21 20:39:46,610 | DEBUG | Repository cloned to /var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmpvymy9l_m
+2024-09-21 20:39:46,610 | DEBUG | Repository cloned to /var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmpvymy9l_m
+2024-09-21 20:39:46,630 | DEBUG | Checked out commit 4a9db8c6280a306c18f1177655d7501bb7635b31
+2024-09-21 20:39:46,630 | DEBUG | Checked out commit 4a9db8c6280a306c18f1177655d7501bb7635b31
+2024-09-21 20:39:57,077 | INFO | Unit tests completed with code: 0
+2024-09-21 20:39:57,077 | INFO | Unit tests completed with code: 0
+2024-09-21 20:39:57,077 | DEBUG | Unit tests output: [2m[WebServer] [22m[1m[31mThe following Vite config options will be overridden by SvelteKit:[22m[39m
+  - build.outDir
+[2m[WebServer] [22m[33m8:39:54 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmpvymy9l_m/src/routes/+page.svelte:33:0 Unused CSS selector "html"[39m
+[2m[WebServer] [22m31: 
+32: <style lang="scss">@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+33: html, body {
+    ^
+34:   height: 100%;
+35:   margin: 0;
+[33m8:39:54 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmpvymy9l_m/src/routes/+page.svelte:33:6 Unused CSS selector "body"[39m
+31: 
+32: <style lang="scss">@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+33: html, body {
+          ^
+34:   height: 100%;
+35:   margin: 0;
+[2m[WebServer] [22m[33m8:39:54 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmpvymy9l_m/src/lib/components/habitList/HabitList.svelte:126:0 Unused CSS selector ".habit"[39m
+[2m[WebServer] [22m124:   background: transparent;
+125: }
+126: .habit {
+     ^
+127:   padding: 10px;
+128:   margin: -21px;
+[2m[WebServer] [22m[33m8:39:54 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmpvymy9l_m/src/lib/components/leftBar/LeftBarShortcut.svelte:46:0 Unused CSS selector ".shortcut img"[39m
+[2m[WebServer] [22m44:   transform: translateY(2px);
+45: }
+46: .shortcut img {
+    ^
+47:   width: 90%;
+48:   height: 90%;
+[2m[WebServer] [22m[33m8:39:54 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmpvymy9l_m/src/lib/components/mainView/navElement.svelte:52:0 Unused CSS selector ".shortcut img"[39m
+[2m[WebServer] [22m50:   transform: translateY(0.5px);
+51: }
+52: .shortcut img {
+    ^
+53:   width: 60px;
+54:   height: 60px;
+[2m[WebServer] [22m"plugins" is imported from external module "chart.js" but never used in "node_modules/svelte-chartjs/dist/Radar.svelte", "node_modules/svelte-chartjs/dist/Doughnut.svelte", "node_modules/svelte-chartjs/dist/PolarArea.svelte", "node_modules/svelte-chartjs/dist/Chart.svelte", "node_modules/svelte-chartjs/dist/Bar.svelte", "node_modules/svelte-chartjs/dist/Pie.svelte", "node_modules/svelte-chartjs/dist/Scatter.svelte", "node_modules/svelte-chartjs/dist/Bubble.svelte", "node_modules/svelte-chartjs/dist/Line.svelte" and "src/lib/components/mainView/Graph/Graph.svelte".
+[2m[WebServer] [22m[1m[31mThe following Vite config options will be overridden by SvelteKit:[22m[39m
+  - build.outDir
+[2m[WebServer] [22m[33m8:39:54 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmpvymy9l_m/src/routes/+page.svelte:33:0 Unused CSS selector "html"[39m
+[2m[WebServer] [22m31: 
+32: <style lang="scss">@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+33: html, body {
+    ^
+34:   height: 100%;
+35:   margin: 0;
+[33m8:39:54 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmpvymy9l_m/src/routes/+page.svelte:33:6 Unused CSS selector "body"[39m
+31: 
+32: <style lang="scss">@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+33: html, body {
+          ^
+34:   height: 100%;
+35:   margin: 0;
+[2m[WebServer] [22m[33m8:39:54 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmpvymy9l_m/src/lib/components/habitList/HabitList.svelte:126:0 Unused CSS selector ".habit"[39m
+[2m[WebServer] [22m124:   background: transparent;
+125: }
+126: .habit {
+     ^
+127:   padding: 10px;
+128:   margin: -21px;
+[2m[WebServer] [22m[33m8:39:54 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmpvymy9l_m/src/lib/components/leftBar/LeftBarShortcut.svelte:46:0 Unused CSS selector ".shortcut img"[39m
+[2m[WebServer] [22m44:   transform: translateY(2px);
+45: }
+46: .shortcut img {
+    ^
+47:   width: 90%;
+48:   height: 90%;
+[2m[WebServer] [22m[33m8:39:55 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmpvymy9l_m/src/lib/components/mainView/navElement.svelte:52:0 Unused CSS selector ".shortcut img"[39m
+[2m[WebServer] [22m50:   transform: translateY(0.5px);
+51: }
+52: .shortcut img {
+    ^
+53:   width: 60px;
+54:   height: 60px;
+
+Running 1 test using 1 worker
+
+  ✓  1 test.ts:8:1 › 1+1=2 (4ms)
+
+  1 passed (4.2s)
+
+2024-09-21 20:39:57,077 | DEBUG | Unit tests output: [2m[WebServer] [22m[1m[31mThe following Vite config options will be overridden by SvelteKit:[22m[39m
+  - build.outDir
+[2m[WebServer] [22m[33m8:39:54 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmpvymy9l_m/src/routes/+page.svelte:33:0 Unused CSS selector "html"[39m
+[2m[WebServer] [22m31: 
+32: <style lang="scss">@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+33: html, body {
+    ^
+34:   height: 100%;
+35:   margin: 0;
+[33m8:39:54 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmpvymy9l_m/src/routes/+page.svelte:33:6 Unused CSS selector "body"[39m
+31: 
+32: <style lang="scss">@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+33: html, body {
+          ^
+34:   height: 100%;
+35:   margin: 0;
+[2m[WebServer] [22m[33m8:39:54 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmpvymy9l_m/src/lib/components/habitList/HabitList.svelte:126:0 Unused CSS selector ".habit"[39m
+[2m[WebServer] [22m124:   background: transparent;
+125: }
+126: .habit {
+     ^
+127:   padding: 10px;
+128:   margin: -21px;
+[2m[WebServer] [22m[33m8:39:54 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmpvymy9l_m/src/lib/components/leftBar/LeftBarShortcut.svelte:46:0 Unused CSS selector ".shortcut img"[39m
+[2m[WebServer] [22m44:   transform: translateY(2px);
+45: }
+46: .shortcut img {
+    ^
+47:   width: 90%;
+48:   height: 90%;
+[2m[WebServer] [22m[33m8:39:54 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmpvymy9l_m/src/lib/components/mainView/navElement.svelte:52:0 Unused CSS selector ".shortcut img"[39m
+[2m[WebServer] [22m50:   transform: translateY(0.5px);
+51: }
+52: .shortcut img {
+    ^
+53:   width: 60px;
+54:   height: 60px;
+[2m[WebServer] [22m"plugins" is imported from external module "chart.js" but never used in "node_modules/svelte-chartjs/dist/Radar.svelte", "node_modules/svelte-chartjs/dist/Doughnut.svelte", "node_modules/svelte-chartjs/dist/PolarArea.svelte", "node_modules/svelte-chartjs/dist/Chart.svelte", "node_modules/svelte-chartjs/dist/Bar.svelte", "node_modules/svelte-chartjs/dist/Pie.svelte", "node_modules/svelte-chartjs/dist/Scatter.svelte", "node_modules/svelte-chartjs/dist/Bubble.svelte", "node_modules/svelte-chartjs/dist/Line.svelte" and "src/lib/components/mainView/Graph/Graph.svelte".
+[2m[WebServer] [22m[1m[31mThe following Vite config options will be overridden by SvelteKit:[22m[39m
+  - build.outDir
+[2m[WebServer] [22m[33m8:39:54 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmpvymy9l_m/src/routes/+page.svelte:33:0 Unused CSS selector "html"[39m
+[2m[WebServer] [22m31: 
+32: <style lang="scss">@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+33: html, body {
+    ^
+34:   height: 100%;
+35:   margin: 0;
+[33m8:39:54 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmpvymy9l_m/src/routes/+page.svelte:33:6 Unused CSS selector "body"[39m
+31: 
+32: <style lang="scss">@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+33: html, body {
+          ^
+34:   height: 100%;
+35:   margin: 0;
+[2m[WebServer] [22m[33m8:39:54 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmpvymy9l_m/src/lib/components/habitList/HabitList.svelte:126:0 Unused CSS selector ".habit"[39m
+[2m[WebServer] [22m124:   background: transparent;
+125: }
+126: .habit {
+     ^
+127:   padding: 10px;
+128:   margin: -21px;
+[2m[WebServer] [22m[33m8:39:54 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmpvymy9l_m/src/lib/components/leftBar/LeftBarShortcut.svelte:46:0 Unused CSS selector ".shortcut img"[39m
+[2m[WebServer] [22m44:   transform: translateY(2px);
+45: }
+46: .shortcut img {
+    ^
+47:   width: 90%;
+48:   height: 90%;
+[2m[WebServer] [22m[33m8:39:55 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmpvymy9l_m/src/lib/components/mainView/navElement.svelte:52:0 Unused CSS selector ".shortcut img"[39m
+[2m[WebServer] [22m50:   transform: translateY(0.5px);
+51: }
+52: .shortcut img {
+    ^
+53:   width: 60px;
+54:   height: 60px;
+
+Running 1 test using 1 worker
+
+  ✓  1 test.ts:8:1 › 1+1=2 (4ms)
+
+  1 passed (4.2s)
+
+2024-09-21 20:39:57,552 | INFO | Test suite completed successfully for commit {payload.commit_sha}
+2024-09-21 20:39:57,552 | INFO | Test suite completed successfully for commit {payload.commit_sha}
+2024-09-21 20:39:59,193 | DEBUG | Repository removed for commit 4a9db8c6280a306c18f1177655d7501bb7635b31
+2024-09-21 20:39:59,193 | DEBUG | Repository removed for commit 4a9db8c6280a306c18f1177655d7501bb7635b31
+2024-09-21 20:43:11,937 | DEBUG | Test suite started for commit 4a9db8c6280a306c18f1177655d7501bb7635b31
+2024-09-21 20:43:11,937 | DEBUG | Test suite started for commit 4a9db8c6280a306c18f1177655d7501bb7635b31
+2024-09-21 20:43:14,469 | DEBUG | Repository cloned to /var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmp9o7gm2ka
+2024-09-21 20:43:14,469 | DEBUG | Repository cloned to /var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmp9o7gm2ka
+2024-09-21 20:43:14,489 | DEBUG | Checked out commit 4a9db8c6280a306c18f1177655d7501bb7635b31
+2024-09-21 20:43:14,489 | DEBUG | Checked out commit 4a9db8c6280a306c18f1177655d7501bb7635b31
+2024-09-21 20:43:25,145 | INFO | Unit tests completed with code: 0
+2024-09-21 20:43:25,145 | INFO | Unit tests completed with code: 0
+2024-09-21 20:43:25,146 | DEBUG | Unit tests output: [2m[WebServer] [22m[1m[31mThe following Vite config options will be overridden by SvelteKit:[22m[39m
+  - build.outDir
+[2m[WebServer] [22m[33m8:43:22 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmp9o7gm2ka/src/routes/+page.svelte:33:0 Unused CSS selector "html"[39m
+[2m[WebServer] [22m31: 
+32: <style lang="scss">@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+33: html, body {
+    ^
+34:   height: 100%;
+35:   margin: 0;
+[33m8:43:22 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmp9o7gm2ka/src/routes/+page.svelte:33:6 Unused CSS selector "body"[39m
+31: 
+32: <style lang="scss">@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+33: html, body {
+          ^
+34:   height: 100%;
+35:   margin: 0;
+[2m[WebServer] [22m[33m8:43:22 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmp9o7gm2ka/src/lib/components/habitList/HabitList.svelte:126:0 Unused CSS selector ".habit"[39m
+[2m[WebServer] [22m124:   background: transparent;
+125: }
+126: .habit {
+     ^
+127:   padding: 10px;
+128:   margin: -21px;
+[2m[WebServer] [22m[33m8:43:22 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmp9o7gm2ka/src/lib/components/leftBar/LeftBarShortcut.svelte:46:0 Unused CSS selector ".shortcut img"[39m
+[2m[WebServer] [22m44:   transform: translateY(2px);
+45: }
+46: .shortcut img {
+    ^
+47:   width: 90%;
+48:   height: 90%;
+[2m[WebServer] [22m[33m8:43:22 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmp9o7gm2ka/src/lib/components/mainView/navElement.svelte:52:0 Unused CSS selector ".shortcut img"[39m
+[2m[WebServer] [22m50:   transform: translateY(0.5px);
+51: }
+52: .shortcut img {
+    ^
+53:   width: 60px;
+54:   height: 60px;
+[2m[WebServer] [22m"plugins" is imported from external module "chart.js" but never used in "node_modules/svelte-chartjs/dist/Radar.svelte", "node_modules/svelte-chartjs/dist/Chart.svelte", "node_modules/svelte-chartjs/dist/Pie.svelte", "node_modules/svelte-chartjs/dist/Doughnut.svelte", "node_modules/svelte-chartjs/dist/Bar.svelte", "node_modules/svelte-chartjs/dist/Scatter.svelte", "node_modules/svelte-chartjs/dist/Bubble.svelte", "node_modules/svelte-chartjs/dist/Line.svelte", "node_modules/svelte-chartjs/dist/PolarArea.svelte" and "src/lib/components/mainView/Graph/Graph.svelte".
+[2m[WebServer] [22m[1m[31mThe following Vite config options will be overridden by SvelteKit:[22m[39m
+  - build.outDir
+[2m[WebServer] [22m[33m8:43:22 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmp9o7gm2ka/src/routes/+page.svelte:33:0 Unused CSS selector "html"[39m
+[2m[WebServer] [22m31: 
+32: <style lang="scss">@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+33: html, body {
+    ^
+34:   height: 100%;
+35:   margin: 0;
+[33m8:43:22 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmp9o7gm2ka/src/routes/+page.svelte:33:6 Unused CSS selector "body"[39m
+31: 
+32: <style lang="scss">@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+33: html, body {
+          ^
+34:   height: 100%;
+35:   margin: 0;
+[2m[WebServer] [22m[33m8:43:22 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmp9o7gm2ka/src/lib/components/habitList/HabitList.svelte:126:0 Unused CSS selector ".habit"[39m
+[2m[WebServer] [22m124:   background: transparent;
+125: }
+126: .habit {
+     ^
+127:   padding: 10px;
+128:   margin: -21px;
+[2m[WebServer] [22m[33m8:43:22 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmp9o7gm2ka/src/lib/components/leftBar/LeftBarShortcut.svelte:46:0 Unused CSS selector ".shortcut img"[39m
+[2m[WebServer] [22m44:   transform: translateY(2px);
+45: }
+46: .shortcut img {
+    ^
+47:   width: 90%;
+48:   height: 90%;
+[2m[WebServer] [22m[33m8:43:23 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmp9o7gm2ka/src/lib/components/mainView/navElement.svelte:52:0 Unused CSS selector ".shortcut img"[39m
+50:   transform: translateY(0.5px);
+51: }
+52: .shortcut img {
+    ^
+53:   width: 60px;
+54:   height: 60px;
+
+Running 1 test using 1 worker
+
+  ✓  1 test.ts:8:1 › 1+1=2 (5ms)
+
+  1 passed (4.2s)
+
+2024-09-21 20:43:25,146 | DEBUG | Unit tests output: [2m[WebServer] [22m[1m[31mThe following Vite config options will be overridden by SvelteKit:[22m[39m
+  - build.outDir
+[2m[WebServer] [22m[33m8:43:22 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmp9o7gm2ka/src/routes/+page.svelte:33:0 Unused CSS selector "html"[39m
+[2m[WebServer] [22m31: 
+32: <style lang="scss">@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+33: html, body {
+    ^
+34:   height: 100%;
+35:   margin: 0;
+[33m8:43:22 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmp9o7gm2ka/src/routes/+page.svelte:33:6 Unused CSS selector "body"[39m
+31: 
+32: <style lang="scss">@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+33: html, body {
+          ^
+34:   height: 100%;
+35:   margin: 0;
+[2m[WebServer] [22m[33m8:43:22 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmp9o7gm2ka/src/lib/components/habitList/HabitList.svelte:126:0 Unused CSS selector ".habit"[39m
+[2m[WebServer] [22m124:   background: transparent;
+125: }
+126: .habit {
+     ^
+127:   padding: 10px;
+128:   margin: -21px;
+[2m[WebServer] [22m[33m8:43:22 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmp9o7gm2ka/src/lib/components/leftBar/LeftBarShortcut.svelte:46:0 Unused CSS selector ".shortcut img"[39m
+[2m[WebServer] [22m44:   transform: translateY(2px);
+45: }
+46: .shortcut img {
+    ^
+47:   width: 90%;
+48:   height: 90%;
+[2m[WebServer] [22m[33m8:43:22 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmp9o7gm2ka/src/lib/components/mainView/navElement.svelte:52:0 Unused CSS selector ".shortcut img"[39m
+[2m[WebServer] [22m50:   transform: translateY(0.5px);
+51: }
+52: .shortcut img {
+    ^
+53:   width: 60px;
+54:   height: 60px;
+[2m[WebServer] [22m"plugins" is imported from external module "chart.js" but never used in "node_modules/svelte-chartjs/dist/Radar.svelte", "node_modules/svelte-chartjs/dist/Chart.svelte", "node_modules/svelte-chartjs/dist/Pie.svelte", "node_modules/svelte-chartjs/dist/Doughnut.svelte", "node_modules/svelte-chartjs/dist/Bar.svelte", "node_modules/svelte-chartjs/dist/Scatter.svelte", "node_modules/svelte-chartjs/dist/Bubble.svelte", "node_modules/svelte-chartjs/dist/Line.svelte", "node_modules/svelte-chartjs/dist/PolarArea.svelte" and "src/lib/components/mainView/Graph/Graph.svelte".
+[2m[WebServer] [22m[1m[31mThe following Vite config options will be overridden by SvelteKit:[22m[39m
+  - build.outDir
+[2m[WebServer] [22m[33m8:43:22 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmp9o7gm2ka/src/routes/+page.svelte:33:0 Unused CSS selector "html"[39m
+[2m[WebServer] [22m31: 
+32: <style lang="scss">@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+33: html, body {
+    ^
+34:   height: 100%;
+35:   margin: 0;
+[33m8:43:22 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmp9o7gm2ka/src/routes/+page.svelte:33:6 Unused CSS selector "body"[39m
+31: 
+32: <style lang="scss">@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+33: html, body {
+          ^
+34:   height: 100%;
+35:   margin: 0;
+[2m[WebServer] [22m[33m8:43:22 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmp9o7gm2ka/src/lib/components/habitList/HabitList.svelte:126:0 Unused CSS selector ".habit"[39m
+[2m[WebServer] [22m124:   background: transparent;
+125: }
+126: .habit {
+     ^
+127:   padding: 10px;
+128:   margin: -21px;
+[2m[WebServer] [22m[33m8:43:22 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmp9o7gm2ka/src/lib/components/leftBar/LeftBarShortcut.svelte:46:0 Unused CSS selector ".shortcut img"[39m
+[2m[WebServer] [22m44:   transform: translateY(2px);
+45: }
+46: .shortcut img {
+    ^
+47:   width: 90%;
+48:   height: 90%;
+[2m[WebServer] [22m[33m8:43:23 PM [vite-plugin-svelte] /private/var/folders/hv/bhg3wvpd4rjgdwqj12kb57x00000gn/T/tmp9o7gm2ka/src/lib/components/mainView/navElement.svelte:52:0 Unused CSS selector ".shortcut img"[39m
+50:   transform: translateY(0.5px);
+51: }
+52: .shortcut img {
+    ^
+53:   width: 60px;
+54:   height: 60px;
+
+Running 1 test using 1 worker
+
+  ✓  1 test.ts:8:1 › 1+1=2 (5ms)
+
+  1 passed (4.2s)
+
+2024-09-21 20:43:25,917 | INFO | Test suite completed successfully for commit {payload.commit_sha}
+2024-09-21 20:43:25,917 | INFO | Test suite completed successfully for commit {payload.commit_sha}
+2024-09-21 20:43:27,633 | DEBUG | Repository removed for commit 4a9db8c6280a306c18f1177655d7501bb7635b31
+2024-09-21 20:43:27,633 | DEBUG | Repository removed for commit 4a9db8c6280a306c18f1177655d7501bb7635b31
