@@ -9,7 +9,6 @@ app.add_url_rule('/build/<string:name>', 'build', build_application, methods=['P
 app.add_url_rule('/logs/all', 'logs_all', get_all_logs, methods=['GET'])
 app.add_url_rule('/logs/<string:id>', 'logs', get_log, methods=['GET'])
 
-#TODO Add logging
 
 if __name__ == "__main__":
-    app.run(debug=True, port=8080)
+    app.run(port=8024)
