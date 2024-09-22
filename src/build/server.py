@@ -129,7 +129,7 @@ def build_application(name: str):
         logger.debug(f"Test suite started for commit {payload.commit_sha}")
         # info = _clone_repo(payload.clone_url)
         # repo_path, repo = info[0], info[1]
-        logger.debug(f"Repository cloned to {repo_path}")
+        # logger.debug(f"Repository cloned to {repo_path}")
 
         # repo.git.checkout(payload.commit_sha)
         logger.debug(f"Checked out commit {payload.commit_sha}")
